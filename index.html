@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Modern Techie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                  <img src="images/logo.png" width="125px">   
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class = "col-2">
+                    <h1>The Modern Techie leverages data to make informed and calculated decisions.</h1>
+                    <p>View our catalog of the latest and greatest. Hand selected/Data analyzed products <br> chosen to help bring you into the comfort of the twenty first century.</p>
+                    <a href="" class="btn">Explore the future, today &#8594;</a>
+    
+                </div>
+                <div class = "col-2">
+                    <img src="images/Business plan.jpg">
+                </div>
+            </div>
+        </div>
+
+    </div> 
+    
+    <div class="categories">
+        <div class="small-container">
+
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/Nuclear power plant between fields.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/Programming.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/Parabolic antenna.jpg">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/Asahi Pentax SLR Camera.jpg">
+                    <h4>Asahi Pentax SLR</h4>
+                    <p>$899.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/Headphones.jpg">
+                    <h4>Raycon Stealth Fours</h4>
+                    <p>$179.99</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/Macbook Air.jpg">
+                    <h4>Macbook Air</h4>
+                    <p>$1399.00</p>
+                </div>
+                
+
+            </div>
+
+        <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/CCTV Camera On Modern Building.jpg">
+                    <h4>Security Camera</h4>
+                    <p>$74.99</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/Electric car.jpg">
+                    <h4>Electric Car</h4>
+                    <p>$19,999.00</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="images/Ethernet Swich.jpg">
+                    <h4>Etehrnet Switch</h4>
+                    <p>$49.99</p>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/Photocopier Control Buttons.jpg">
+                        <h4>Photocopier</h4>
+                        <p>$299.99</p>
+                    </div>
+    
+                    <div class="col-4">
+                        <img src="images/Air conditioner compressor on the ivy wall.jpg">
+                        <h4>Air conditioner</h4>
+                        <p>$449.99</p>
+                    </div>
+    
+                    <div class="col-4">
+                        <img src="images/Robotic lawn mower.jpg">
+                        <h4>Robot Lawn mower</h4>
+                        <p>$599.99</p>
+                    </div>
+                </div>
+
+            </div>
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/Satellite.jpg">
+                </div>
+                <div class="col-2">
+            <p>Exclusively Available on The Modern Techie</p>
+            <h1>Satellite</h1>
+            <small>The new Pheonix Overreach Satellite offers lowers latency and a 99.999% uptime, with active threat managment you'll be ready to take on the future.</small>
+            <a href="" class='btn'>Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <p>Follow our Social Media</p>
+                    <ul>
+                        <li>FaceBook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/Recycle.png" width="20px" height="20px">
+                    <p>Working toward a <br> sustainable future, today.</p>
+                </div>
+                <div class="footer-col-3">
+                    <p>Useful Links</p>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Coupons</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+    MenuItems.style.maxHeight = "0px";
+
+    menutoggle = () => {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+        } else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>
